@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="chat-container">
+    <div class="chat-header">
+        <h1>Azure OpenAI Assistant Chat</h1>
+    </div>
+    <div class="chat-messages" id="chat-messages">
+    </div>
+    <div class="chat-input-container">
+        <textarea id="user-input" placeholder="Type your message here..." rows="3"></textarea>
+        <button id="send-button">Send</button>
+    </div>
+</div>
+{% endblock %}
